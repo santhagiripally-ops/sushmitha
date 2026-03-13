@@ -1,0 +1,130 @@
+.buy{
+    background-color:rgb(29, 161, 242);
+    color:white;
+    border:none;
+    border-radius:20px;
+    padding-right:12px;
+    padding-left:12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-weight:bold;
+    transition:box-shadow 0.3s;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .buy:hover{
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+
+  .new{
+    font-size: 16px;
+    color:brown;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    text-align:center;
+  }
+
+  .mac{
+    font-size:25px;
+    color:black;
+    margin-bottom:0;
+    margin-top:0;
+    text-align: center;
+
+  }
+  .pros{
+    font-size:35px;
+    font-weight:bold;
+    color:black;
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+  }
+  .price{
+    font-size:14px;
+    color:rgb(57, 55, 55);
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+    }
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+.macbook{
+  background-color:rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: rgb(86, 83, 83);
+}
+.hours{
+  font-size: 26px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:0;
+}
+.usd{
+  font-size: 14px;
+  color:rgb(56, 35, 35);;
+}
+.today{
+  color:green;
+  font-size:16px;
+  margin-top:10px;
+  margin-bottom:0;
+}
+.duration{
+  font-size: 16px;
+  color:rgb(78, 71, 71);
+  margin-top:10px;
+}
+.minus{
+  color:red;
+
+}
+.costs{
+  background-color:white;
+  padding:10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top:10px;
+}
+.org{
+  font-size:16px;
+  color: black;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.link{
+  font-size:14px;
+  color:rgb(78, 71, 71);
+  
+}
+.descp{
+  font-size:14px;
+  color:rgb(0, 0, 0);
+  width:300px;
+  line-height:20px;
+}
+.descp2{
+  font-size:14px;
+  color:rgb(0, 0, 0);
+  width:300px;
+  line-height:20px;
+}
+.site{
+  color:rgb(98, 131, 230);
+  font-size:14px;
+}
+.site:hover{
+  cursor:pointer;
+  text-decoration:underline;
+  color:red;
+}
+
+.freecodecamp{
+  background-color: white;
+  padding:10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) ;
+  margin-top:10px;
+}

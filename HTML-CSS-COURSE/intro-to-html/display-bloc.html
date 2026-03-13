@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Display-block
+    </title>
+    <style>
+      .name{
+        display: block;
+        height:30px;
+        width:150px;
+        border-radius:5px;
+        margin-bottom:10px;
+        border-color:rgb(66, 64, 64);
+      }
+      .email{
+        display: block;
+        height:30px;
+        width:150px;
+        border-radius:5px;
+        margin-bottom:10px;
+        border-color:rgb(173, 114, 114);
+      }
+      .descp{
+        width:190px;
+        display:inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+      }
+      .yes,
+      .no{
+        margin:5px;
+        padding:5px;
+        width:50px;
+        border-radius:20px;
+        display:inline-block;
+      }
+      .logo{
+        height:250px;
+        width:600px;
+        display:inline-block;
+        margin-left:200px;
+      }
+      .search{
+        width:650px;
+        padding:20px;
+        border-radius:29px;
+        font-size:14px;
+        border-color:rgb(66, 64, 64);
+        margin-left:190px;
+      }
+
+      .first-name,
+      .last-name{
+        width:100px;
+        padding:10px;
+        margin-top:50px;
+        border-radius:5px;
+        color:grey;
+        border-color:grey;
+      }
+      .emaill{
+        margin-top:20px;
+        padding:10px;
+        border-radius:5px;
+        width:220px;
+        display:block;
+        border-color:grey;
+      }
+      .signup{
+        background-color:rgb(59, 59, 233);
+        color:white;
+        font-weight:bold;
+        display:block;
+        border:none;
+        width:35%;
+        margin-top:10px;
+        height:30px;
+        border-radius:10px;
+        }
+
+      .ride{
+        font-size:40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin:10px;
+
+      }
+      .location,
+      .destination{
+        width:290px;
+        height: 30px;
+        border-radius:8px;
+        padding:5px;
+        display:block;
+        margin:20px;
+      }
+      .request-now{
+       background-color:black;
+       color:white;
+       height: 50px;
+       width:150px;
+       margin-right:20px;
+      }
+
+      .schedule{
+        background-color:grey;
+        border-color:grey;
+        color:white;
+        height: 50px;
+        width:150px;
+        margin-right:20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input class="name" type="text" placeholder="Name">
+    <input class="email" type="Email" placeholder="Email">
+    <p class="descp">
+      Thanks for chatting with our customer support. Would you like to take our quick survey?
+    </p>
+    <button class="yes">Yes</button>
+    <button class="no">No</button>
+  <nav>
+    <img src="google.jpg" alt="google" class="logo">
+    <input type="text" class="search" placeholder="Search Google or type a URL">
+  </nav>
+  <nav>
+    <input type="text" class="first-name" placeholder="First Name">
+    <input type="text" class="last-name" placeholder="Last Name">
+  </nav>
+    <input type="email" class="emaill" placeholder="Email">
+    <button class="signup">Signup</button>
+
+    <div>
+      <p class="ride">Request a ride now</p>
+      <input class="location" type="text" placeholder="Enter pickup location">
+      <input class="destination" type="text" placeholder="Enter destination">
+      <nav class="rapido-btn">
+      <button class="request-now" >
+        Request now
+      </button>
+      <button class="schedule">
+        Schedule for later
+      </button>
+    </div>
+    </nav>
+  </body>
+</html>
