@@ -18,8 +18,8 @@
       }
 
       .thumbnail{
-        width:300px;
-        display:block;       
+        width:100%;
+           
       }
       .search-bar{
         width:300px;
@@ -35,12 +35,12 @@
       }
 
       .video-title{
-         margin-top:0;
+        margin-top:0;
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
         margin-bottom:12px;
-        display:inline-block;
+       
 
       }
 
@@ -53,17 +53,12 @@
         margin-top:20px;
       }
 
-      .Profile-pic{
-        display: inline-block;
-        width:50px;
-        vertical-align:top;
-        background-color:grey;
-      }
+
 
       .video-info{
         display: inline-block;
         width:245px;
-        background-color: gray;
+       
       
       }
 
@@ -87,7 +82,15 @@
 
       .video-info-grid{
         display:grid;
-        grid-template-columns: 50px, 1fr;
+        grid-template-columns: 50px 1fr;
+        background-color: gray;
+      }
+
+      .profile-pic{
+        background-color: gray;
+        width:50px;
+        vertical-align: top;
+    
       }
     </style>
 
@@ -146,17 +149,18 @@
         </div>
 
 
-        <div class="video-preview">
-          <div class="thumbnail-row">
-           <img src="../thumbnails/Allsecrets.avif" alt="thumbnail1" class="thumbnail">
-          </div>
-          <div class="Profile-pic">
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="../thumbnails/Automation.avif" alt="thumbnail1" class="thumbnail">
+        </div>
+        <div class="video-info-grid">
+         <div class="Profile-pic">
             <img  class="display-pic" src="../thumbnails/dp3.jpg" alt="dp" >
           </div>
-
+          
          <div class="video-info">
             <p class="video-title">
-              All the Secrets to Creating Viral YouTube Thumbnails
+            Ultimate AI Automation Setup (Step-by-Step)
             </p>
             <p class="video-author">
               Marques Brownlee
@@ -164,29 +168,31 @@
             <p class="video-stats">
               3.4M views &#183; 6 Months ago
             </p>
-          </div>
-          </div>
-        </div>  
+         </div>
+        </div>
+      </div>
 
         
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img src="../thumbnails/Automation.avif" alt="thumbnail1" class="thumbnail">
+          <img src="../thumbnails/Allsecrets.avif" alt="thumbnail1" class="thumbnail">
         </div>
-        <div class="Profile-pic">
+        <div class="video-info-grid">
+         <div class="Profile-pic">
             <img  class="display-pic" src="../thumbnails/dp4.jpg" alt="dp" >
           </div>
           
-        <div class="video-info">
-          <p class="video-title">
-           Ultimate AI Automation Setup (Step-by-Step)
-          </p>
-          <p class="video-author">
-            Marques Brownlee
-          </p>
-          <p class="video-stats">
-            3.4M views &#183; 6 Months ago
-          </p>
+         <div class="video-info">
+            <p class="video-title">
+            Ultimate AI Automation Setup (Step-by-Step)
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 Months ago
+            </p>
+         </div>
         </div>
       </div>
 
